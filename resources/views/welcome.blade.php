@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Super-Duper Blog v5.02b</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -38,8 +38,11 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Super-Duper Blog v5.02b</div>
             </div>
-        </div>
+            <hr>
+            <a href="http://localhost/blog2/public/">Home Page</a> |
+            <a href="{{ action('PostController@index') }}">Blog Posts</a>
+            </div>
     </body>
 </html>
